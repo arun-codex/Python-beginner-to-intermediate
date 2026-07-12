@@ -1,8 +1,8 @@
 # Arithmetic operators
 
-a = input("Enter the value of a : ")
+a = int(input("Enter the value of a : "))
 
-b = input("Enter the value of b : ")
+b = int(input("Enter the value of b : "))
 
 print("the sum of a and b is ", a+b)
 print("the difference of a and b is ", a-b)
