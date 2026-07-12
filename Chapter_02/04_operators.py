@@ -1,8 +1,8 @@
 # Arithmetic operators
 
-a = 18 
+a = input("Enter the value of a : ")
 
-b = 6 
+b = input("Enter the value of b : ")
 
 print("the sum of a and b is ", a+b)
 print("the difference of a and b is ", a-b)
@@ -10,3 +10,4 @@ print("the product of a and b is ", a*b)
 print("the division of a and b is ", a/b)
 print("the modulo of a and b is ", a%b)
 print("the exponent of a and b is ", a**b)
+
