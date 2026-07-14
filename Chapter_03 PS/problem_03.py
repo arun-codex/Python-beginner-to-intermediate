@@ -2,6 +2,9 @@
 
 word = "Hello  My Name is Arun.  How are you?"
 
+# using count function
 count = word.count("  ")
 print(count)
 
+# using find function
+print(word.find("  "))
