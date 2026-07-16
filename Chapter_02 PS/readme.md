@@ -1,125 +1,72 @@
-# Chapter 02 PS - Variables & Data Types (Practice Set)
-
+---
+title: Chapter 02 Practice Set
+chapter: 02
+difficulty: ⭐☆☆☆☆
+study_time: 45 Minutes
+revision_time: 15 Minutes
+interview_importance: Low
+exam_importance: High
 ---
 
-# Introduction
+← [Chapter 02 Theory](../Chapter_02/README.md) | 🏠 [Home](../README.md) | [Next Chapter](../Chapter_03/README.md) →
 
-**What is this topic?**
-This is the Practice Set companion to Chapter 2. This folder contains hands-on exercises designed to drill your understanding of Variables, Data Types, Typecasting, and basic Operators in Python.
+# 🧩 Chapter 02 Practice Set: Variables & Data Types
 
-**Why is it important?**
-Mathematical and logical operations are the core of any algorithm. If you cannot confidently take user input, convert it to the correct type, and manipulate it, you cannot build functional software.
+This is the ultimate test of your understanding of Data Types and Typecasting.
 
----
+## 📝 Problem Index
 
-# Learning Objectives
+### Problem 1: Add Two Numbers
+- **File:** [`Problem_01.py`](./Problem_01.py)
+- **Difficulty:** ⭐☆☆☆☆
+- **Concept Tested:** Variables and Arithmetic addition.
+- **Expected Time:** 5 Mins
+- **Revision Priority:** Low
 
-After completing this practice set, students should be able to:
-- Safely take input from a user using `input()`.
-- Identify when to typecast `str` to `int` or `float`.
-- Apply arithmetic operators (`+`, `-`, `/`, `%`, `**`).
-- Use comparison operators to evaluate boolean logic.
+### Problem 2: Find Remainder
+- **File:** [`problem_02.py`](./problem_02.py)
+- **Difficulty:** ⭐☆☆☆☆
+- **Concept Tested:** The modulo operator (`%`).
+- **Expected Time:** 5 Mins
+- **Hint:** Use `a % b`.
 
----
+### Problem 3: Check Type of Input
+- **File:** [`problem_03.py`](./problem_03.py)
+- **Difficulty:** ⭐☆☆☆☆
+- **Concept Tested:** `type()` and `input()`.
+- **Expected Time:** 5 Mins
+- **Follow-up Interview Question:** "What data type does `input()` always return in Python?" (Answer: `str`).
 
-# Practice Questions (Core Set)
-
-### Problem 1: Addition
-Write a Python program to add two hardcoded numbers and print the result.
-
-### Problem 2: Remainder (Modulo)
-Write a Python program to find the remainder when a number is divided by `z` (assume `z` is 2). Use the modulo operator.
-
-### Problem 3: Type Checking Input
-Check the type of the variable assigned using `input()`. Print it out to prove that `input()` always returns a string.
-
-### Problem 4: Comparison Operator
-Use comparison operators to find out whether a given variable `a` is greater than `b` or not. Take `a = 34` and `b = 80`.
+### Problem 4: Comparison Operators
+- **File:** [`problem_04.py`](./problem_04.py)
+- **Difficulty:** ⭐☆☆☆☆
+- **Concept Tested:** Greater than/Less than.
+- **Expected Time:** 5 Mins
 
 ### Problem 5: Average of Two Numbers
-Write a Python program to find the average of two numbers entered by the user.
+- **File:** [`problem_05.py`](./problem_05.py)
+- **Difficulty:** ⭐⭐☆☆☆
+- **Concept Tested:** Typecasting and PEMDAS.
+- **Expected Time:** 10 Mins
+- **Common Mistake:** Forgetting to typecast the input to `int` or `float` before doing math!
 
 ### Problem 6: Calculate Square
-Write a Python program to calculate the square of a number entered by the user.
+- **File:** [`problem_06.py`](./problem_06.py)
+- **Difficulty:** ⭐☆☆☆☆
+- **Concept Tested:** Exponent operator.
+- **Expected Time:** 5 Mins
+- **Hint:** In Python, the exponent operator is `**`, not `^`.
+
+## 📊 Practice Tracker
+
+- [ ] Problem 1 Completed
+- [ ] Problem 2 Completed
+- [ ] Problem 3 Completed
+- [ ] Problem 4 Completed
+- [ ] Problem 5 Completed
+- [ ] Problem 6 Completed
+- [ ] Code committed to GitHub.
 
 ---
-
-# Solutions
-
-**Solution to Problem 3:**
-```python
-user_input = input("Enter anything: ")
-# Even if the user types a number, it will print <class 'str'>
-print(type(user_input))
-```
-
-**Solution to Problem 5:**
-```python
-# Taking input and immediately casting it to integers
-num1 = int(input("Enter first number: "))
-num2 = int(input("Enter second number: "))
-
-# Parentheses are required because division has higher precedence than addition
-average = (num1 + num2) / 2
-print("The average is:", average)
-```
-
-**Solution to Problem 6:**
-```python
-num = int(input("Enter a number to square: "))
-# The ** operator is used for exponents
-square = num ** 2
-print("The square of", num, "is", square)
-```
-
----
-
-# Mini Projects
-
-1. **Tip Calculator**
-   - **Difficulty:** Beginner
-   - **Task:** Ask user for bill amount, typecast to float, multiply by `1.20` to get a 20% tip, and print the total.
-2. **Even or Odd Checker**
-   - **Difficulty:** Beginner
-   - **Task:** Ask user for number, use `% 2`, and output a boolean (`True` if even).
-
----
-
-# Common Errors
-
-### `TypeError: unsupported operand type(s) for +: 'int' and 'str'`
-- **Why:** You took input (which is a string) and tried to add it to a hardcoded integer.
-- **How to Fix:** `user_num = int(input("Enter number: "))`
-
----
-
-# Interview Questions
-
-### 10 Practice Interview Questions
-1. Why does `input("Enter age:") + 5` cause a crash?
-2. What operator is used to find the remainder of a division?
-3. How do you square a number without importing the `math` module?
-4. What is the difference between `/` and `//`?
-5. Write a script to swap two variables on a whiteboard.
-6. What will `type(3.14)` output?
-7. How do you convert a float to an integer? What happens to the decimal?
-8. What is the result of `34 > 80`?
-9. Is `age` the same variable as `Age` in Python?
-10. What does the `**` operator do?
-
----
-
-# Folder Structure
-
-```text
-Chapter_02 PS/
-│
-├── readme.md         <-- (You are here)
-├── Problem_1.py
-├── Problem_2.py
-├── Problem_3.py
-├── Problem_4.py
-├── Problem_5.py
-└── Problem_6.py
-```
-*(Proceed to Chapter 3 to continue the course!)*
+### Next Recommended Step
+Completed the Practice Set? You are ready to move on to **[Chapter 03: Strings](../Chapter_03/README.md)**.
