@@ -1,75 +1,55 @@
+---
+title: Complete Python Beginner to Intermediate
+description: My Personal Second Brain for Python
+---
+
 <div align="center">
 
-# 🐍 Complete Python Beginner to Intermediate 🚀
+# 🧠 Complete Python Beginner to Intermediate
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
 
 <br>
-<i>A comprehensive and practical journey from the basics of Python to intermediate concepts. Learn by doing with theoretical chapters and hands-on practice sets!</i>
+<i>My Personal Second Brain for learning, practicing, and mastering Python.</i>
 <br><br>
 
 </div>
 
 ---
 
-## 📖 About This Repository
+## 🎯 What is this Repository?
 
-Welcome to the **Complete Python Beginner to Intermediate** course repository! This collection is meticulously crafted to help you grasp Python programming step-by-step. It breaks down complex topics into digestible chapters and reinforces learning through dedicated Practice Sets (PS).
+This is not just a collection of code. This is my **Personal Knowledge Base**. 
 
-Whether you're writing your first line of code or trying to solidify your understanding of core Python concepts, this repo provides you with structured notes, source code, and exercises.
+Every chapter is designed to answer fundamental questions: *Why do I need this? Where is it used? How do I master it?* If I ever forget Python, I can return to this repository months or years from now and relearn everything rapidly.
 
----
+## 🚀 Learning Goals
 
-## 🗂️ Course Structure
+- Master Python from scratch to intermediate level.
+- Build a robust foundation for Data Science, Web Development, and Automation.
+- Retain knowledge permanently through spaced repetition and Active Recall.
+- Be 100% prepared for University Exams and Technical Interviews.
 
-The course is divided into logical chapters, separating theory and practice. Click on any chapter below to dive in!
+## 🗺️ Quick Navigation
 
-| 📚 Chapter / Section | 🎯 Focus / Key Concepts | 📂 Directory Link |
-| :--- | :--- | :--- |
-| **Chapter 01: Modules, Comments & pip** | Built-in vs External Modules, Comments, Print statements | [Go to Chapter 1](./Chapter_01) |
-| **Chapter 01 PS: Practice Set** | Hands-on exercises for Chapter 1 | [Go to Practice 1](./Chapter_01%20PS) |
-| **Chapter 02: Variables & Data Types** | Variables, Identifiers, Int, Float, Str, Bool, Type Checking | [Go to Chapter 2](./Chapter_02) |
-| **Chapter 02 PS: Practice Set** | Hands-on exercises for Chapter 2 | [Go to Practice 2](./Chapter_02%20PS) |
-| **Chapter 03: Strings** | String operations, Slicing, String Functions, Escape Sequences | [Go to Chapter 3](./Chapter_03) |
-| **Chapter 03 PS: Practice Set** | Hands-on exercises for Chapter 3 | [Go to Practice 3](./Chapter_03%20PS) |
-| **Chapter 04: Lists** | List operations, Mutable structures, List Methods, Slicing | [Go to Chapter 4](./Chapter_04) |
-| **Chapter 04 PS: Practice Set** | Hands-on exercises for Chapter 4 | [Go to Practice 4](./Chapter_04%20PS) |
-| **Notes** | Handwritten notes and essential summaries | [Go to Notes](./Notes) |
+| Resource | Description |
+| :--- | :--- |
+| [**📖 Full Index**](./docs/index.md) | The complete table of contents for the entire repository. |
+| [**🛣️ Roadmap**](./docs/roadmap.md) | My step-by-step learning path and time estimates. |
+| [**📈 Summary & Progress**](./docs/summary.md) | My self-assessment, weak topics, and revision tracker. |
+| [**📚 Resources**](./docs/resources.md) | Links to docs, YouTube, and practice websites. |
+| [**🤝 Contributing**](./docs/contributing.md) | Future expansion and contribution guidelines. |
 
----
+## 📚 Chapters
 
-## 🚀 Getting Started
-
-To get the most out of this repository, follow these steps:
-
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/arun-codex/Complate-Python-beginner-to-intermediate-.git
-   ```
-2. **Navigate into the directory:**
-   ```bash
-   cd Complate-Python-beginner-to-intermediate-
-   ```
-3. **Explore a Chapter:** Read the `readme.md` inside any chapter to understand the concepts.
-4. **Run the Code:** Execute the Python scripts directly to see how they work.
-   ```bash
-   python "Chapter_01/first.py"
-   ```
-5. **Solve Practice Sets:** After finishing a chapter, jump into its `PS` folder and try to solve the problems yourself before looking at the solutions!
+- [**Chapter 01: Modules, Comments & pip**](./Chapter_01/README.md)
+- [**Chapter 02: Variables & Data Types**](./Chapter_02/README.md)
+- [**Chapter 03: Strings**](./Chapter_03/README.md)
+- [**Chapter 04: Lists and Tuples**](./Chapter_04/README.md)
+- [**Chapter 05: Dictionary and Sets**](./Chapter_05/README.md)
 
 ---
-
-## 💡 Pro Tips for Beginners
-
-> [!TIP]
-> - **Experiment:** Don't just read the code! Change the values, break the code, and fix it to truly understand how it works.
-> - **Use `print()`:** When in doubt, `print()` the variables to see what's happening at runtime.
-> - **Read the Errors:** Python error messages are usually quite descriptive. Pay attention to the line number and error type.
-
----
-
 <div align="center">
-Made with ❤️ by an enthusiastic Python learner. Happy Coding! 🎉
+Made with ❤️ for Future Arun.
 </div>
