@@ -1,3 +1,5 @@
+d = {} 
+
 marks = {
     "Arun":100,
     "Tanish":90,
