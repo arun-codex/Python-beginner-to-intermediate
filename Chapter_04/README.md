@@ -49,6 +49,8 @@ Dive into the actual material by clicking the links below:
 - [`02_list_method.py`](./02_list_method.py)
 - [`03_tuple.py`](./03_tuple.py)
 - [`04_tuple_method.py`](./04_tuple_method.py)
+- [`list.count.py`](./list.count.py)
+- [`list_clear.py`](./list_clear.py)
 
 ---
 

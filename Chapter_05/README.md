@@ -46,6 +46,10 @@ Dive into the actual material by clicking the links below:
 
 ## 💻 Existing Code Files
 - [`01_dict.py`](./01_dict.py)
+- [`02_dict_methods.py`](./02_dict_methods.py)
+- [`03_sets.py`](./03_sets.py)
+- [`04_sets_methods.py`](./04_sets_methods.py)
+- [`05_sets_union_intersaction.py`](./05_sets_union_intersaction.py)
 
 ---
 

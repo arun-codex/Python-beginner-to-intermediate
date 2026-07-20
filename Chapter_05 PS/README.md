@@ -45,11 +45,41 @@ This is the ultimate test of your Dictionary and Sets knowledge. Solve these wit
 - **Follow-up Interview Question:** "Why are lists unhashable in Python?"
 - **Revision Priority:** High (Interview Trap)
 
+### Problem 4
+- **File:** [`problem_04.py`](./problem_04.py)
+- **Difficulty:** ⭐⭐⭐☆☆
+
+### Problem 5
+- **File:** [`problem_05.py`](./problem_05.py)
+- **Difficulty:** ⭐⭐☆☆☆
+
+### Problem 6
+- **File:** [`problem_06.py`](./problem_06.py)
+- **Difficulty:** ⭐⭐⭐☆☆
+
+### Problem 7
+- **File:** [`problem_07.py`](./problem_07.py)
+- **Difficulty:** ⭐⭐⭐☆☆
+
+### Problem 8
+- **File:** [`problem_08.py`](./problem_08.py)
+- **Difficulty:** ⭐⭐⭐☆☆
+
+### Problem 9
+- **File:** [`problem_09.py`](./problem_09.py)
+- **Difficulty:** ⭐⭐⭐☆☆
+
 ## 📊 Practice Tracker
 
 - [ ] Problem 1 Completed
 - [ ] Problem 2 Completed
 - [ ] Problem 3 Completed
+- [ ] Problem 4 Completed
+- [ ] Problem 5 Completed
+- [ ] Problem 6 Completed
+- [ ] Problem 7 Completed
+- [ ] Problem 8 Completed
+- [ ] Problem 9 Completed
 - [ ] Code committed to GitHub.
 
 ---
